@@ -1,0 +1,48 @@
+WorkClass :- 1836 ?
+occupation :- 1843 ? -- (1836 are same records as WorkClass)
+native-country :- 583 ? -- (27 are same records as WorkClass)
+
+
+********************* 
+If native-contry is filled using mode, It will be 89.58% accuracy 
+
+********************
+Imputation using KNN Clustering
+https://cran.r-project.org/web/packages/VIM/VIM.pdf
+https://link.springer.com/chapter/10.1007/978-3-642-14834-7_56
+https://www.youtube.com/watch?v=u8XvfhBdbMw
+https://github.com/statistikat/VIM
+
+********************
+Imputation using Random Forest prediction
+https://www.analyticsvidhya.com/blog/2016/03/tutorial-powerful-packages-imputing-missing-values/
+https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1946&context=gradreports
+https://link.springer.com/chapter/10.1007/978-3-642-03156-4_6
+https://arxiv.org/ftp/arxiv/papers/0812/0812.2412.pdf
+
+********************
+Encoding
+http://pbpython.com/categorical-encoding.html
+http://contrib.scikit-learn.org/categorical-encoding/
+
+Imputation of traing & test together
+https://stats.stackexchange.com/questions/95083/imputation-before-or-after-splitting-into-train-and-test
+
+
+http://www.data-mania.com/blog/logistic-regression-example-in-python/
+
+****** To Run Encodingtest.py ( From the standalone python installation*******
+pip install numpy
+pip install pandas
+Download Visual c++ tool 15 (http://landinghub.visualstudio.com/visual-cpp-build-tools)
+pip install statsmodels
+pip install sklearn
+pip install category_encoders
+pip install matplotlib
+****** To Run Encodingtest.py *******
+
+****** To Run Encodingtest.py ( From the Anaconda installation*******
+conda install -c conda-forge category_encoders
+****** To Run Encodingtest.py *******
+
+
